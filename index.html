@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" id="grad">
+    
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Droid Sans Mono' rel='stylesheet'>
+
+
+    <body>
+
+        <!-- Adding top navigation bar -->
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <br>
+        
+        <div class="hero-section">
+            <div class="left-text">
+                <h1>I am Clayton McCormack</h1>
+                <p>And I'm a Software Engineering Student</p>
+                <button>Hire me</button>
+            </div>
+            
+            <div class="right-picture">
+                <img src="images/me.jpg">
+            </div>
+        </div>
+
+        <br>
+
+        <div class="about-section" id="about">
+            <h1>About Me</h1>
+          </div>
+          
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <div class="item">
+                    <img src="images/painting.jpg" alt="Art" style="width:100%">
+                </div>
+                
+                <div class="container">
+                  <h2>Art</h2>
+                  <p>I enjoy drawing and painting in my spare time. This is a small nature painting I made
+                    a while ago.
+                  </p>
+                </div>
+
+              </div>
+            </div>
+            
+          
+            <div class="column">
+              <div class="card">
+                <div class="item">
+                    <img src="images/BANFF PIC OF ME.jpg" alt="Mike" style="width:100%">
+                </div>
+
+                <div class="container">
+                  <h2>Travelling</h2>
+                  <p>I also enjoy travelling as often as I can. 
+                    This is a photo of me when I went to Banff with my brother last year.
+                  </p>
+                </div>
+
+              </div>
+            </div>
+        </div>
+
+        <div class="experience-section" id="experience">
+            <h1>Experience</h1>
+            <p>During my 1st year at Western I was tasked with making an Automatic Pet Treat Dispenser.
+               Here are some videos of the conference where I presented our design.
+            </p>
+        </div>
+          
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <div class="item">
+                    <video width="703" height="520" controls>
+                        <source src="images/conference.mp4" alt="Mike" style="width:100%">
+                    </video>
+                </div>
+                
+                <div class="container">
+                  <h2>Presenting</h2>
+                  <p>Here I show how a wheelchair bound client used the device by mounting it on an armchair.
+                  </p>
+                </div>
+
+              </div>
+            </div>
+          
+            <div class="column">
+              <div class="card">
+                <div class="item">
+                    <video width="703" height="520" controls>
+                        <source src="images/device.mp4" alt="Mike" style="width:100%">
+                    </video>
+                </div>
+
+                <div class="container">
+                  <h2>Demonstration</h2>
+                  <p>This video shows the mechanism twisting to 
+                    dispense a small helping of treats as the client requested.
+                  </p>
+                </div>
+
+              </div>
+            </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <h1>Contact Me</h1>
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class="column">
+            <img src="images/code.jpg" style="width:100%">
+            </div>
+            <div class="column">
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                </select>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+            </div>
+        </div>
+        </div>
+
+        <div class="footer">
+            <p>Clayton's Portfolio</p>
+        </div>
+        
+    </body>
+</html>
