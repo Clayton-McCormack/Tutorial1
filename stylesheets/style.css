@@ -6,7 +6,7 @@
 
 /* Gradient background colour throughout the page */
 #grad {
-background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0), rgb(194, 44, 255,1));
+background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0), rgb(44, 202, 255,1));
 }
 
 /* Rounds the edges of all images and cards */
@@ -78,12 +78,6 @@ color: white;
 padding: 0 16px;
 }
 
-.container::after, .row::after {
-content: "";
-clear: both;
-display: table;
-}
-
 @media screen and (max-width: 650px) {
 .column {
   width: 100%;
@@ -91,6 +85,7 @@ display: table;
 }
 }
 
+/* CSS for contact me section */
 input[type=text], select, textarea {
 width: 100%;
 padding: 12px;
@@ -100,6 +95,7 @@ margin-bottom: 16px;
 resize: vertical;
 }
 
+/* CSS for contact me button */
 input[type=submit] {
 background-color: #000000;
 color: white;
@@ -108,8 +104,9 @@ border: none;
 cursor: pointer;
 }
 
+/* Making the button change colour when hovering */
 input[type=submit]:hover {
-background-color:#c22cff;
+background-color:#2ccaff;
 }
 
 /* Style the container/contact section */
@@ -142,11 +139,13 @@ clear: both;
 }
 }
 
+/* Making the hero section a table */
 .hero-section {
 display: table;
 margin: 0 auto;
 }
 
+/* Left text in the hero section */
 .left-text{
 display: table-cell;
 vertical-align: middle;
@@ -154,10 +153,12 @@ text-align: right;
 padding-right: 150px;
 }
 
+/* Right picture in the display cell */
 .right-picture{
 display: table-cell;
 }
 
+/* Right picture image settings */
 .right-picture > img{
 vertical-align: middle;
 max-width: 670px;
@@ -170,7 +171,7 @@ position: fixed;
 left: 0;
 bottom: 0;
 width: 100%;
-background-color: rgb(194, 44, 255,1);
+background-color: #2ccaff;
 color: white;
 text-align: center;
 }
