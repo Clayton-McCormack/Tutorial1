@@ -78,13 +78,6 @@ color: white;
 padding: 0 16px;
 }
 
-@media screen and (max-width: 650px) {
-.column {
-  width: 100%;
-  display: block;
-}
-}
-
 /* CSS for contact me section */
 input[type=text], select, textarea {
 width: 100%;
